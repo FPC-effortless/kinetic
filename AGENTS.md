@@ -278,3 +278,7 @@ The blob naming lives in two places on purpose: `_WORKER_RESULT_TEMPLATE`
 in `runner/remote_runner.py` (which ships standalone in the container and
 cannot import kinetic) and `worker_result_blob_name()` in
 `utils/storage.py`. Keep them in sync.
+
+## Shared FPC universal skill
+
+For substantive engineering, product or research tasks, consult `.agents/skills/fpc-universal/SKILL.md` when relevant. This general skill is subordinate to every repository-specific, nested, safety, architecture, verification and release instruction above.
